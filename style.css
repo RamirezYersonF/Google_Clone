@@ -1,0 +1,153 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.container-header{
+    width: 100%;
+    height: 60px;
+}
+.nav-menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-menu ul{
+    display: flex;
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.nav-menu ul a{
+   margin-right: 10px;      
+   color: #000;
+   text-decoration: none;
+   cursor: pointer;
+}
+.nav-menu ul .menu-icon{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.img-perfil{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+.container{
+    margin-top: 150px;
+    text-align: center;
+}
+.container .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.container .main-logo .logo-google{
+    width: 420px;
+}
+.container .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.container .main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .main-input input{
+    width: 400px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+.container .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447 ;
+    border-color: #dfe1e500;
+}
+ .container .main-input .search-icon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    margin-right: 20px;
+}
+.container .main-input .micro-icon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 18px;
+    margin-left: 20px;
+    
+} 
+.container .main-buttons{
+    width: 530px;
+    margin: 0 auto;
+    
+}
+.container .main-buttons div{
+    display: inline-block;
+}
+.container .main-buttons button{
+    height: 36px;
+    background-color: #f2f2f2;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+.container .main-buttons button:hover{
+    border: 1px solid  #c6c6c6;
+    box-shadow: 0 1px 1px #0001;
+    color: #222;;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute; /*Se asegura que el footer se quede abajo de la página*/
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+footer ul{
+    list-style: none;
+    margin: 10px;
+    display: flex;
+    padding-left: 0;
+}
+footer ul a{
+    text-decoration: none;
+}
+footer .footer-left{
+    justify-self: left;
+}
+footer .footer-right{
+    justify-self: right;
+}
+footer ul li a{
+    margin: 10px;
+    color: #5f6368;
+}
